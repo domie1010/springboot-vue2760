@@ -1,0 +1,319 @@
+/*定义全局css*/
+body {
+
+	/* 紫色 */
+    /* 2 全局公共主颜色 */
+    --publicMainColor: #8E2DE2;
+    /* 2 全局公共副颜色 */
+    --publicSubColor: #A27DE3;
+
+}
+
+
+/* 导航栏开始*/
+/*导航栏结束*/
+
+/*腰线开始*/
+/*腰线结束*/
+
+
+/*home页面数据样式 开始*/
+	/*home页面数据样式 普通数据样式 开始*/
+
+	/*home页面数据样式 普通数据样式 结束*/
+/*home页面数据样式 结束*/
+
+/*list页面数据样式 开始*/
+	/*list页面数据样式 普通数据样式 开始*/
+.tox-pop{
+    z-index: -99999;
+}
+
+.show-reel a img{
+    width:100%;
+}
+.show-reel:nth-child(2){
+    margin:2em 0;
+}
+.agile-gallery{
+    position: relative;
+    overflow: hidden;
+    text-align: center;;
+}
+.agileits-caption {
+    background: rgba(0, 0, 0, 0.62);
+    padding: 2em 1em 1em 1em;
+    position: absolute;
+    left: 0;
+    bottom: -105%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: .5s all;
+    transition: .5s all;
+    -moz-transition: .5s all;
+}
+.agile-gallery:hover .agileits-caption {
+    bottom: 0%;
+}
+.agileits-caption h4{
+    color: #FFFFFF;
+    margin: 0 0 .5em 0;
+    font-size: 1.5em;
+    font-weight: 600;
+    font-family: 'Laila', serif;
+    line-height: 8em;
+    text-transform: capitalize;
+}
+.agileits-caption p{
+    color: #FFFFFF;
+    font-size: 1.3em;
+    margin-top:  3px;
+}
+.gallery-grids {
+    padding: 5em 0;
+}
+	/*list页面数据样式 普通数据样式 结束*/
+/*list页面数据样式 结束*/
+
+/* 轮播图 */
+.layui-carousel[lay-indicator=outside] .layui-carousel-ind ul {
+	background-color: #FFFFFF;
+}
+
+.layui-carousel-ind li.layui-this {
+	background-color:   var(--publicMainColor,orange);
+}
+
+.layui-carousel-ind li {
+	background-color: #E0E0E0;
+}
+
+.layui-carousel-ind li:hover {
+	background-color: #E0E0E0;
+}
+/* 首页标题 */
+.index-title {
+	color:   var(--publicMainColor,orange);
+}
+
+/* 首页新闻 */
+.news-home-container {
+	background: #e5e5e5;
+}
+
+.news-home-container .layui-colla-item {
+	border: 1px solid #EEEEEE;
+}
+
+.news-home-container .layui-colla-content {
+	background: #FFFFFF;
+}
+
+.news-home-container .layui-colla-title {
+	background: #d1d1d1;
+	border: 1px solid #EEEEEE;
+	color: #515151;
+}
+
+.news-home-container .layui-colla-title:hover {
+	background:   var(--publicMainColor,orange);
+	color: #FFFFFF;
+}
+
+.news-home-container .layui-card-header {
+	background: #d1d1d1;
+	border: 1px solid #FFFFFF;
+	color: #515151;
+}
+
+/* 图文列表 */
+.data-container:nth-child(odd) {
+	background-color: #F3F3F3;
+}
+
+.data-container .data-list .data-item:hover {
+	border: 2px dashed   var(--publicMainColor,orange);
+}
+
+.data-container .data-list .data-item .title:hover {
+	color: #FFFFFF;
+	background:   var(--publicMainColor,orange);
+}
+
+
+.data-container .data-list .data-item .title {
+	background: #f0f0f0;
+	color:   var(--publicMainColor,orange);
+}
+
+.data-container .data-list .data-item .price {
+	color:   var(--publicMainColor,orange);
+}
+
+/* 详情页 */
+.data-detail {
+	background: #FFFFFF;
+}
+
+.data-detail-breadcrumb {
+	background: #EEEEEE;
+	color: #515151;
+}
+
+.data-detail .title {
+	color: #515151;
+	border: 3px dotted #EEEEEE;
+}
+
+.data-detail .count-container {
+	color: #FFFFFF;
+}
+
+.data-detail .count-container .number {
+	background: #443b3b;
+}
+
+.data-detail .tool-container{
+	border: 3px dotted #EEEEEE;
+}
+
+.data-detail .price{
+	color:   var(--publicMainColor,orange);
+}
+
+
+.layui-tab-card>.layui-tab-title .layui-this {
+    background-color:   var(--publicMainColor,orange);
+	color: #FFFFFF;
+}
+
+/* 底部导航栏 */
+.nav-bottom {
+	background:   var(--publicMainColor,orange);
+}
+
+.nav-bottom .layui-nav-item a {
+	color: #FFFFFF;
+}
+
+/* banner */
+.banner {
+	background:   var(--publicMainColor,orange);
+}
+
+/* 新闻资讯 */
+.news-container .news-list .news-item .detail-container .h2 {
+	color: #4e6990;
+}
+
+.news-container .news-list .news-item .detail-container .desc {
+	color: #515151;
+}
+
+.news-container .news-list .news-item .detail-container .create-time {
+	color: #515151;
+}
+
+.news-container .title {
+	color:   var(--publicMainColor,orange);
+}
+
+
+.news-container .bottom-container .btn {
+	background:   var(--publicMainColor,orange);
+	color: #FFFFFF;
+}
+
+/* 论坛 */
+
+.forum-container .bottom-container .btn {
+	background:   var(--publicMainColor,orange);
+	color: #FFFFFF;
+}
+
+.forum-container .forum-list .forum-item:hover {
+	background:   var(--publicMainColor,orange);
+	color: #FFFFFF;
+}
+
+.forum-container .forum-list .forum-item.line:hover {
+	background:   var(--publicMainColor,orange);
+	color: #FFFFFF;
+}
+
+/* 考试 */
+.paper-container thead tr{
+	background:   var(--publicMainColor,orange) ;
+	color: #FFFFFF;
+}
+
+.paper-container tbody tr:hover{
+	color: #FFFFFF;
+	background-color:   var(--publicMainColor,orange);
+}
+
+/* 个人中心 */
+
+.center-container  .layui-nav .layui-nav-more {
+    border-color: #515151 transparent transparent;
+}
+
+.center-container .layui-nav-itemed>a, .layui-nav-tree .layui-nav-title a, .layui-nav-tree .layui-nav-title a:hover {
+    color: #515151 !important;
+}
+
+.center-container  .layui-nav .layui-nav-mored, .layui-nav-itemed>a .layui-nav-more {
+    border-color: transparent transparent #515151;
+}
+
+.center-container .layui-nav {
+    background-color: #009688;
+    color: #515151;
+}
+
+.center-container .layui-nav-itemed>.layui-nav-child {
+    background-color: #FFFFFF !important;
+}
+
+.center-container .layui-nav-tree .layui-nav-bar {
+    width: 5px;
+    height: 0;
+    background-color:   var(--publicMainColor,orange);
+}
+
+/* 分页插件 */
+.layui-laypage .layui-laypage-curr .layui-laypage-em {
+	background-color:   var(--publicMainColor,orange);
+}
+
+.layui-laypage a:hover {
+	color:   var(--publicMainColor,orange);
+}
+
+.btn-submit {
+	background:   var(--publicMainColor,orange);
+}
+
+.btn-theme{
+	background:   var(--publicMainColor,orange);
+}
+
+
+/* checkbox */
+.layui-form-radio>i:hover, .layui-form-radioed>i {
+    color:   var(--publicMainColor,orange);
+}
+
+.layui-form-select dl dd.layui-this {
+    background-color:   var(--publicMainColor,orange);
+    color: #fff;
+}
+
+layui-tab-title .layui-this {
+    color:   var(--publicMainColor,orange);
+}
+
+.layui-tab-brief>.layui-tab-more li.layui-this:after, .layui-tab-brief>.layui-tab-title .layui-this:after {
+    border-bottom: 2px solid   var(--publicMainColor,orange);
+}
